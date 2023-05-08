@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,400;1,500&family=Hind+Siliguri:wght@600;700&family=Lato:ital,wght@0,300;0,400;0,900;1,100;1,900&family=Merriweather:ital,wght@0,700;1,400;1,700&family=Outfit:wght@100;200;300;400;500;600;700;900&family=Source+Sans+Pro:ital,wght@0,700;1,600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background-color: #000;
+}
+h1,h4,h3s,p,a{
+color: #fff;
+text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background:	rgb(0, 191, 255);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+.btn-light{
+  background: transparent;
+  color: #fff;
+}
+.btn:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+
