@@ -1,6 +1,6 @@
 import React from 'react'
 import './heroimg.css'
-import introimg from '../assets/pexels-annam-w-1120162.jpg'
+// import introimg from '../assets/pexels-annam-w-1120162.jpg'
 import { Link } from 'react-router-dom'
 
 function Heroimg() {

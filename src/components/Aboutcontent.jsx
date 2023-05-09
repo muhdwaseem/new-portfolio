@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './aboutconten.css';
 import img1 from '../assets/luca-bravo-9l_326FISzk-unsplash.jpg'
 import img2 from '../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg'

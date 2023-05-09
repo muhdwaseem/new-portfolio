@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiFillGithub} from 'react-icons/ai'
-import { FaFacebook, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaMailchimp, FaPhone } from 'react-icons/fa'
+import {  FaHome, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa'
 import './footer.css'
 function Footer() {
   return (

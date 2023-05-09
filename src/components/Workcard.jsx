@@ -1,7 +1,7 @@
 import React from 'react'
 import './workcard.css'
 
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 import { Button, Card } from 'react-bootstrap'
 function Workcard() {
 const  details = [{content:"To-Do App",img:"https://images.unsplash.com/photo-1602757115429-b4190ae087be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2plY3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"},
