@@ -5,7 +5,7 @@ import './workcard.css'
 import { Button, Card } from 'react-bootstrap'
 
 function Workcard() {
-const  details = [{content:"Netflix-clone",img:"https://images.unsplash.com/photo-1627873649417-c67f701f1949?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5ldGZsaXh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",},
+const  details = [{content:"Netflix-clone",img:"https://images.unsplash.com/photo-1627873649417-c67f701f1949?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5ldGZsaXh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",links:"",source:""},
 {content:"anything new",img:"https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHByb2plY3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"},
 
 ]
