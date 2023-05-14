@@ -11,13 +11,13 @@ function Footer() {
                 <FaHome size={20} style={{color:'#fff'}}/>
                 </div>    
                 <div >
-                   <p>Muhaisnah 4</p>
-                   <p>Dubai</p>
+                   <p>Muhaisnah 4 ,Dubai</p>
+                   <br />
 
                 </div>
                 <div className='phone'>
                 <h4><FaPhone size={20} style={{color:"#fff",marginRight:'2rem'}}/>
-                0554494600</h4>
+                +917 554494600</h4>
                 </div>
                 <div className='mail'>
                 <h4><FaMailBulk size={20} style={{color:"#fff",marginRight:'2rem'}}/>
