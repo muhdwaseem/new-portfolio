@@ -1,7 +1,6 @@
 import React from 'react'
 import './workcard.css'
 
-// import { Link } from 'react-router-dom'
 import { Button, Card } from 'react-bootstrap'
 
 function Workcard() {
@@ -20,16 +19,19 @@ const  details = [{content:"Netflix-clone",img:"https://images.unsplash.com/phot
       {
         details.map((val)=>{
             return (
-<Card style={{ width: '18rem',margin:"3rem",border:"1px solid #fff",padding:"0.2rem" }}>
+<Card style={{ width: '18rem',margin:"1.5rem",border:"1px solid #fff",padding:"0.2rem" }}>
       <Card.Img  variant="top" src={val.img} className="cards" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text style={{padding:"10px"}}>
+        <Card.Title >Card Title</Card.Title>
+        <Card.Text style={{padding:"10px",textAlign:'center',fontSize:'20px',fontWeight:'500',textTransform
+      :'uppercase'}}>
          {val.content}
         </Card.Text>
-        <a href='/'><Button style={{margin:"10px"}} variant="primary" >View</Button> </a>
-       
+        {/* <a href='/'><Button style={{margin:"10px"}} variant="primary" >View</Button> </a> */}
+       <div style={{textAlign:'center'}}>
        <a href='/'> <Button style={{}} variant="primary" > source</Button></a>
+       </div>
+       
       </Card.Body>
     </Card>
             )
