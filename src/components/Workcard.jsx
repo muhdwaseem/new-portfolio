@@ -5,8 +5,10 @@ import './workcard.css'
 import { Button, Card } from 'react-bootstrap'
 
 function Workcard() {
-const  details = [{content:"Netflix-clone",img:"https://images.unsplash.com/photo-1627873649417-c67f701f1949?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5ldGZsaXh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",links:"",source:""},
-{content:"anything new",img:"https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHByb2plY3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"},
+const  details = [{content:"Netflix-clone",img:"https://images.unsplash.com/photo-1627873649417-c67f701f1949?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5ldGZsaXh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",links:"netflix-clone-new-orpin.vercel.app",source:"https://github.com/muhdwaseem/netflix-clone-new/tree/main/src"},
+{content:"Drum-Kit",img:"https://images.unsplash.com/photo-1630348556264-52340da87359?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJ1bWtpdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",links:"",source:"https://github.com/muhdwaseem/drumkitapp"},
+{content:"My-blog",img:"https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",links:"",source:"https://github.com/muhdwaseem/drumkitapp"},
+{content:"cash-register",img:"https://images.unsplash.com/photo-1564986410613-97e0b371efe5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FzaCUyMHJlZ2lzdGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",links:"",source:"https://github.com/muhdwaseem/CASH-REGISTER"},
 
 ]
 
